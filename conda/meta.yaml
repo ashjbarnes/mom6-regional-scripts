@@ -1,0 +1,26 @@
+package:
+    name: mom6-regional
+    version: 1
+
+source:
+    git_rev: master
+    git_url: https://github.com/COSIMA/mom6-regional-scripts
+
+
+requirements:
+    build:
+        - python>=3.6
+        - setuptools
+        - setuptools_scm
+        - pbr
+    run:
+        - python>=3.6
+        - numpy
+        - dask
+        - distributed
+        - xarray
+        - netcdf4
+
+about:
+    home: https://github.com/COSIMA/mom6-regional-scripts
+    license: MIT License
